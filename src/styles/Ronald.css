@@ -1,88 +1,150 @@
 /* styles/Ronald.css */
 
+/* Estilo general para el título */
 .title {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .download-button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 10px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .download-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .social-icons {
-    margin-top: 20px;
-  }
-  
-  .social-icons a {
-    margin: 0 10px;
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .social-icons a:hover {
-    color: #0056b3;
-  }
-  /* Estilo para el contenedor de la introducción */
+  font-size: 2.8rem; /* Tamaño del título principal */
+  color: #2c3e50; /* Color oscuro para el título */
+  margin-bottom: 15px;
+}
+
+/* Estilo para el contenedor de la introducción */
 .intro-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 40px;
-    background-color: #f9f9f9; /* Color de fondo suave */
-    border-radius: 12px; /* Bordes redondeados */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  /* Estilo para el título principal */
-  .title {
-    font-size: 2.8rem;
-    color: #2c3e50; /* Color oscuro para el título */
-    margin-bottom: 15px;
-  }
-  
- /* Estilo general para enlaces */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9; /* Color de fondo suave */
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilo general para enlaces */
 .intro-container a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease, text-decoration 0.3s ease;
-  }
-  
-  .intro-container a:hover {
-    text-decoration: underline;
-    color: #0056b3;
-  }
-  
- /* Estilo específico para el botón de Descargar CV */
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.intro-container a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Estilo específico para el botón de Descargar CV */
 .download-cv {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #a7aaad; /* Color de fondo azul */
-    color: #111314; /* Color del texto negro */
-    border-radius: 5px; /* Bordes redondeados */
-    font-weight: bold;
-    text-transform: uppercase; /* Texto en mayúsculas */
-    font-size: 1rem; /* Tamaño de fuente del botón */
-    text-decoration: none; /* Sin subrayado */
-    transition: background-color 0.3s ease, color 0.3s ease;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #a7aaad; /* Color de fondo azul */
+  color: #111314; /* Color del texto negro */
+  border-radius: 5px; /* Bordes redondeados */
+  font-weight: bold;
+  text-transform: uppercase; /* Texto en mayúsculas */
+  font-size: 1rem; /* Tamaño de fuente del botón */
+  text-decoration: none; /* Sin subrayado */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.download-cv:hover {
+  background-color: #111214; /* Color de fondo al pasar el ratón */
+  color: #8d1212; /* Color del texto al pasar el ratón */
+}
+
+/* Estilo para el botón de descarga del CV */
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff; /* Azul Eléctrico */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+}
+
+/* Estilo para los íconos sociales */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  color: #0056b3;
+}
+
+/* Media queries para adaptar el diseño a diferentes tamaños de pantalla */
+
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+  .title {
+      font-size: 1.8rem; /* Ajusta el tamaño del texto en pantallas pequeñas */
   }
-  
-  .download-cv:hover {
-    background-color: #111214; /* Color de fondo al pasar el ratón */
-    color: #8d1212; /* Color del texto al pasar el ratón */
+
+  .intro-container {
+      padding: 20px; /* Ajusta el padding para pantallas pequeñas */
   }
-  
+
+  .download-button, .download-cv {
+      font-size: 0.9rem; /* Ajusta el tamaño de fuente del botón */
+      padding: 8px 16px; /* Ajusta el padding del botón */
+  }
+
+  .social-icons a {
+      font-size: 1.2rem; /* Ajusta el tamaño de los íconos sociales */
+  }
+}
+
+/* Para pantallas medianas (tabletas) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .title {
+      font-size: 2.2rem; /* Ajusta el tamaño del texto en pantallas medianas */
+  }
+
+  .intro-container {
+      padding: 30px; /* Ajusta el padding para pantallas medianas */
+  }
+
+  .download-button, .download-cv {
+      font-size: 1rem; /* Ajusta el tamaño de fuente del botón */
+      padding: 10px 20px; /* Ajusta el padding del botón */
+  }
+
+  .social-icons a {
+      font-size: 1.3rem; /* Ajusta el tamaño de los íconos sociales */
+  }
+}
+
+/* Para pantallas grandes (escritorios) */
+@media (min-width: 901px) {
+  .title {
+      font-size: 3rem; /* Tamaño del título principal para pantallas grandes */
+  }
+
+  .intro-container {
+      padding: 40px; /* Padding estándar para pantallas grandes */
+  }
+
+  .download-button, .download-cv {
+      font-size: 1.2rem; /* Tamaño de fuente del botón para pantallas grandes */
+      padding: 12px 24px; /* Padding del botón para pantallas grandes */
+  }
+
+  .social-icons a {
+      font-size: 1.5rem; /* Tamaño de los íconos sociales para pantallas grandes */
+  }
+}
