@@ -4,10 +4,11 @@
   }
   
   .title {
-    font-size: 2rem;
-    color: #333;
+    font-size: 4rem;
+    color: #161616;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
+    margin-top: -10px;
   }
   
   .diplomas {
