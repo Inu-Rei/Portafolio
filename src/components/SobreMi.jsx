@@ -18,8 +18,8 @@ function SobreMi() {
 
       <h2>Contacto</h2>
       <p>
-        Estoy abierto a nuevas oportunidades y colaboraciones. Si deseas ponerte en contacto conmigo para discutir proyectos, oportunidades laborales o cualquier consulta, no dudes en escribirme a: 
-        <br><a href="mailto:ronaldramossierra@hotmail.com">ronaldramossierra@hotmail.com</a></br>
+        Estoy abierto a nuevas oportunidades y colaboraciones. Si deseas ponerte en contacto conmigo para discutir proyectos, oportunidades laborales o cualquier consulta, no dudes en escribirme a: <br></br>
+        <a href="mailto:ronaldramossierra@hotmail.com">ronaldramossierra@hotmail.com</a>
       </p>
 
       <p>
