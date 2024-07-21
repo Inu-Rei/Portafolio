@@ -71,3 +71,51 @@
   line-height: 1.5;
   text-align: justify;
 }
+
+/* Media queries para adaptar el diseño a diferentes tamaños de pantalla */
+
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+  .project-card {
+    width: 100%; /* Ajusta el ancho de las tarjetas de proyecto para pantallas pequeñas */
+    max-width: none; /* Quita el ancho máximo en pantallas pequeñas */
+  }
+
+  .title {
+    font-size: 1.5rem; /* Reduce el tamaño del texto en pantallas pequeñas */
+  }
+
+  .project-description h3 {
+    font-size: 1.2rem; /* Reduce el tamaño del texto en pantallas pequeñas */
+  }
+
+  .project-description p {
+    font-size: 0.9rem; /* Reduce el tamaño del texto en pantallas pequeñas */
+  }
+}
+
+/* Para pantallas medianas (tabletas) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .project-card {
+    width: 45%; /* Ajusta el ancho de las tarjetas de proyecto para pantallas medianas */
+  }
+
+  .title {
+    font-size: 1.8rem; /* Ajusta el tamaño del texto en pantallas medianas */
+  }
+
+  .project-description h3 {
+    font-size: 1.3rem; /* Ajusta el tamaño del texto en pantallas medianas */
+  }
+
+  .project-description p {
+    font-size: 1rem; /* Ajusta el tamaño del texto en pantallas medianas */
+  }
+}
+
+/* Para pantallas grandes (escritorios) */
+@media (min-width: 901px) {
+  .project-card {
+    width: 30%; /* Ajusta el ancho de las tarjetas de proyecto para pantallas grandes */
+  }
+}

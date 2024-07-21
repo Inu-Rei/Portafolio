@@ -20,7 +20,7 @@ function Contacto() {
           <img src={whatsappIcon} alt="WhatsApp" className="contact-icon" />
           <div>
             <h2>WhatsApp</h2>
-            <p><a href="tel:+573194863001">+57 3194863001</a></p>Desarrollo Front End - Nivel Básico 125 horas.
+            <p><a href="tel:+573194863001">+57 3194863001</a></p>
 
           </div>
         </div>
